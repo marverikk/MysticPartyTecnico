@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MysticPartyTracker.View.CharacterView"
+             Title="CharacterView">
+    <VerticalStackLayout
+         HorizontalOptions="Center"
+         Spacing="20">
+
+        <Picker
+            Title="Nome do Personagem">
+
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Ronaldo</x:String>
+                    <x:String>Garrincha</x:String>
+                    <x:String>Roberto</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Picker
+            Title="Classe do Personagem">
+
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Mago</x:String>
+                    <x:String>Assasino</x:String>
+                    <x:String>Guerreiro</x:String>
+                    <x:String>Tanque</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Picker
+            Title="Raça">
+
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>Humano</x:String>
+                    <x:String>Demônio</x:String>
+                    <x:String>Anjo</x:String>
+                    <x:String>Elfo</x:String>
+                    <x:String>Goblin</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
+
+        <Button 
+            Text="Adicionar"/>
+
+
+    </VerticalStackLayout>
+
+</ContentPage>

@@ -1,0 +1,1 @@
+D:\2DS\PAM\MysticPartyTracker\MysticPartyTracker\MysticPartyTracker.csproj;x64
