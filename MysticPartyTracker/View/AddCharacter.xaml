@@ -8,7 +8,6 @@
             Text="Seleciona uma Magia"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
-        <
         
     </VerticalStackLayout>
 </ContentPage>
