@@ -5,9 +5,20 @@
              Title="AddCharacter">
     <VerticalStackLayout>
         <Label 
-            Text="Seleciona uma Magia"
+            Text="Selecionar um Personagem"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
+
+        <Label 
+            Text="Nível: "
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Entry
+            Placeholder="Nível"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"/>
+
         
     </VerticalStackLayout>
 </ContentPage>
