@@ -5,7 +5,7 @@
              Title="Spells">
     <VerticalStackLayout>
         <Label 
-            Text="{Binding Response}"
+            Text="{Binding Result}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
