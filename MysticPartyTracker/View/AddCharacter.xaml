@@ -7,12 +7,12 @@
         <Label 
             Text="Selecionar um Personagem"
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"/>
 
         <Label 
             Text="Nível: "
             VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+            HorizontalOptions="Center"/>
 
         <Entry
             Placeholder="Nível"
